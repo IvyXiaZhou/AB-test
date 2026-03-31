@@ -22,11 +22,11 @@ This project is designed to analyze the impact of different marketing strategies
 The dataset is from Alibaba Cloud Tianchi. For detailed data information, please refer to the original document link:
 [AliyunTianchi - Audience Expansion Dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=50893&lang=zh-cn)
 This dataset includes three tables that record the activity of two Alipay marketing strategies respectively:
-emb_tb_2.csv: User feature dataset
-effect_tb.csv: Ad click status dataset
-seed_cand_tb.csv: User type dataset
+* emb_tb_2.csv: User feature dataset
+* effect_tb.csv: Ad click status dataset
+* seed_cand_tb.csv: User type dataset
 ## Data Explanation
-dt: Date
-user_id: User ID
-label: User behavior label (0/1)
-dmp_id: Experimental group (1: Control group, 2: Strategy 1, 3: Strategy 2)
+- `dt`: Date
+- `user_id`: User ID
+- `label`: User behavior label (0/1)
+- `dmp_id`: Experimental group (1: Control group, 2: Strategy 1, 3: Strategy 2)
